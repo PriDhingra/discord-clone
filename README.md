@@ -72,9 +72,22 @@ Follow these steps to get the Discord Clone app up and running locally:
 
 ## Deployment
 
-The app can be deployed to Railway using their platform. Make sure to set up your Railway environment variables and deployment configuration according to your requirements. Refer to the Railway documentation for detailed deployment instructions.
+Follow these steps to deploy the Discord Clone app on Railway:
 
+1. **Create an Account**: If you don't already have one, you can create a Railway account by signing up [here](https://railway.app/).
 
----
+2. **Connect Your GitHub**: After creating an account, connect your GitHub account to Railway. This allows Railway to access your GitHub repositories for deployment.
 
-Enjoy using the Discord Clone app for your communication needs! If you have any questions or encounter issues, please don't hesitate to reach out to the maintainers or the community for support.
+3. **Create a New Project**: In your Railway dashboard, create a new project for your Discord Clone app. Give it a name that reflects your project.
+
+4. **Select the GitHub Repository**: Once your project is created, select the GitHub repository where your Discord Clone app project is located. Railway will use this repository for deployment.
+
+5. **Setup Environment Variables**: In your Railway project settings, set up any environment variables required for your app. These might include secret keys, API keys, or other configuration values. Make sure to save these changes.
+
+6. **Deployment Starts Automatically**: After setting up your project and environment variables, Railway will automatically start the deployment process. You can monitor the progress and view deployment logs in your Railway dashboard.
+
+7. **Access Your Deployed App**: Once the deployment is complete, Railway will provide you with a URL where your Discord Clone app is hosted. You can access your app using this URL.
+
+Congratulations! Your Discord Clone app is now deployed and accessible through Railway.
+
+Note: Railway offers a free trial account that allows you to get started with deploying your app. Depending on your project's requirements, you can explore Railway's pricing options for additional features and resources.
